@@ -1,0 +1,27 @@
+.country-info-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  font-family: 'Arial', sans-serif;
+  background-color: #f4f4f9;
+  padding: 20px;
+  position: relative;
+}
+
+.country-info-container img {
+  width: 150px;
+  margin-bottom: 20px;
+}
+
+.home-link {
+  position: absolute;
+  left: 50px;
+  top: 10px;
+}
+
+h2 + div {
+  width: 80%;
+  margin-top: 30px;
+}
